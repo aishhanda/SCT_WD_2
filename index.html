@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pro Stopwatch</title>
+
+  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <h1>Stopwatch Pro</h1>
+    <button id="themeToggle" aria-label="Toggle Theme">🌗</button>
+  </nav>
+
+  <main class="container">
+
+    <section class="stopwatch-card">
+      <div class="time-display" id="display">
+        00:00:00<span class="ms">.000</span>
+      </div>
+
+      <div class="controls">
+        <button id="startPause" class="primary">Start</button>
+        <button id="lap" disabled>Lap</button>
+        <button id="reset" class="danger" disabled>Reset</button>
+      </div>
+    </section>
+
+    <section class="laps-card">
+      <h2>Lap Times</h2>
+      <ul id="laps"></ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Built with precision • Skillcraft Technology Internship</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
