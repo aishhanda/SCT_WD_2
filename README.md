@@ -26,6 +26,6 @@ The application allows users to accurately measure time intervals with support f
 ---
 
 ## output
-![Mobile View](screenshots/mobile.png)
+![View](https://github.com/aishhanda/SCT_WD_2/blob/main/screencapture-127-0-0-1-5500-Task-2-index-html-2026-02-21-17_46_35.png)
 
-## 📂 Project Structure
+
